@@ -1,13 +1,18 @@
+TODO
 Implement these papers:
+	https://github.com/williamleif/GraphSAGE
+	https://github.com/tkipf/gcn
+	https://github.com/vuptran/graph-representation-learning
+	https://github.com/xiaohan2012/sdne-keras
+Start reporting (LaTex) baseline results .i.e. results for individual features and grouped by graph/ text based
+Try implementing the stellargraph python library
 
-https://github.com/williamleif/GraphSAGE
-https://github.com/tkipf/gcn
-https://github.com/vuptran/graph-representation-learning
-https://github.com/xiaohan2012/sdne-keras
+LATER:
+Implement better corpus cleaning with stemming and lemmatization (needs to be fast)
+Re-calculate text based features with cleaned text
+Think about other features to extract from text (LSA after stemming)
 
-Try the stellargraph python library. Looks interesting
-
+SHOULD DO
 Read these papers:
-
-https://www.cs.cornell.edu/home/kleinber/link-pred.pdf
-https://papers.nips.cc/paper/7763-link-prediction-based-on-graph-neural-networks.pdf
+	https://www.cs.cornell.edu/home/kleinber/link-pred.pdf
+	https://papers.nips.cc/paper/7763-link-prediction-based-on-graph-neural-networks.pdf
