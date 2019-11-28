@@ -11,9 +11,13 @@ Activate it and install depenencies
 $ . ./env.sh  or $ . ./venv/bin/activate
 $ pip install -r requirements.txt
 ```
-Download the data from
+Download the data from: 
+
+[Link](https://www.kaggle.com/c/17455/download-all) 
+
+Alternatively:
 ```
-[I'm the link](https://www.kaggle.com/c/17455/download-all) or $ kaggle competitions download -c link-prediction-data-challenge-2019)
+$ kaggle competitions download -c link-prediction-data-challenge-2019
 ```
 Whenever you install something new, add it with
 ```
