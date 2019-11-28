@@ -1,0 +1,13 @@
+Implement these papers:
+
+https://github.com/williamleif/GraphSAGE
+https://github.com/tkipf/gcn
+https://github.com/vuptran/graph-representation-learning
+https://github.com/xiaohan2012/sdne-keras
+
+Try the stellargraph python library. Looks interesting
+
+Read these papers:
+
+https://www.cs.cornell.edu/home/kleinber/link-pred.pdf
+https://papers.nips.cc/paper/7763-link-prediction-based-on-graph-neural-networks.pdf
