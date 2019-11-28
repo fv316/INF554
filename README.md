@@ -15,7 +15,7 @@ Download the data from:
 
 [Link](https://www.kaggle.com/c/17455/download-all) 
 
-or 
+Alternatively:
 ```
 $ kaggle competitions download -c link-prediction-data-challenge-2019
 ```
