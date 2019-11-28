@@ -13,7 +13,9 @@ $ pip install -r requirements.txt
 ```
 Download the data from: 
 
-[Link](https://www.kaggle.com/c/17455/download-all) or 
+[Link](https://www.kaggle.com/c/17455/download-all) 
+
+or 
 ```
 $ kaggle competitions download -c link-prediction-data-challenge-2019
 ```
