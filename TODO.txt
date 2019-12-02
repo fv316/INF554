@@ -1,4 +1,6 @@
 TODO
+@Francisco: cosine similarity for tf-idf: division by vector norm
+
 Implement these papers:
 	https://github.com/williamleif/GraphSAGE
 	https://github.com/tkipf/gcn
