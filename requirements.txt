@@ -10,5 +10,4 @@ lightgbm==2.3.0
 spacy==2.2.3
 networkx==2.4
 hyperopt==0.2.2
-en_core_web_md==2.2.5
-fr_core_news_md==2.2.5
+node2vec==0.3.1
