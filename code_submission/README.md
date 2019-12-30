@@ -24,11 +24,11 @@ Whenever you install something new, add it with
 $ pip freeze > requirements.txt
 ```
 
-# About Running the Python Notebooks and Folder Structure:
+# Running the Notebooks and Files:
 
 Install the necassary libraries. 
 
-### Original data files are expected in the main directory.
++ Original data files are expected in the main directory.
 
 Files/folders: 
 
