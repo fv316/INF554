@@ -23,3 +23,29 @@ Whenever you install something new, add it with
 ```
 $ pip freeze > requirements.txt
 ```
+
+# About Running the Python Notebooks and Folder Structure:
+
+Install the necassary libraries. 
+
+### Original data files expected in the main directory. 
+
++-- pickles
+|   +-- example_pickle.PICKLE
++-- node_information
+|   +-- text
+	|   +-- 0.txt
+	|   +-- 1.txt
+	|   +-- ...
++-- training.txt
++-- testing.txt
++-- INF554_Simple.ipynb
++-- ...
+
+Files/folders: 
+
++ **Preprocessing.ipynb** preprocessing of text data to create created stemmed corpus. Must be run first.
++ **INF554_Simple.ipynb** run after **Preprocessing.ipynb**, calculates the main graph and text based features.
++ **INF554_Node2Vec.ipynb** run after **INF554_Simple.ipynb**, calculated node2vec embeddings.
++ **INF554_Ensemble.ipynb** run last. This file created various models and combined their results in a model ensemble to improve performance.
++ **./pickles** stored the pickles features.
