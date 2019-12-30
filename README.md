@@ -29,19 +29,19 @@ $ pip freeze > requirements.txt
 Install the necassary libraries. 
 
 ### Original data files expected in the main directory. 
-
-+-- pickles
-|   +-- example_pickle.PICKLE
-+-- node_information
-|   +-- text
+'''
+|-- pickles
+|   |-- example_pickle.PICKLE
+|-- node_information
+|   |-- text
 	|   +-- 0.txt
 	|   +-- 1.txt
 	|   +-- ...
-+-- training.txt
-+-- testing.txt
-+-- INF554_Simple.ipynb
-+-- ...
-
+|-- training.txt
+|-- testing.txt
+|-- INF554_Simple.ipynb
+|-- ...
+'''
 Files/folders: 
 
 + **Preprocessing.ipynb** preprocessing of text data to create created stemmed corpus. Must be run first.
