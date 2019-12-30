@@ -28,21 +28,9 @@ $ pip freeze > requirements.txt
 
 Install the necassary libraries. 
 
-### Original data files expected in the main directory. 
-*
-*|-- pickles
-*|   |-- example_pickle.PICKLE
-*|-- node_information
-*|   |-- text
-*	|   +-- 0.txt
-*	|   +-- 1.txt
-*	|   +-- ...
-*|-- training.txt
-*|-- testing.txt
-*|-- INF554_Simple.ipynb
-*|-- ...
-*
-*Files/folders: 
+### Original data files are expected in the main directory.
+
+Files/folders: 
 
 + **Preprocessing.ipynb** preprocessing of text data to create created stemmed corpus. Must be run first.
 + **INF554_Simple.ipynb** run after **Preprocessing.ipynb**, calculates the main graph and text based features.
