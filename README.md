@@ -1,5 +1,4 @@
-# Baseline
-INF554 project repository for team ==Baseline==
+# INF554 Project Repository for Team ==Baseline==
 
 # Onboarding
 Create virtualenv with
